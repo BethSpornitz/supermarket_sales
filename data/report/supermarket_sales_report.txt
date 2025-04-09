@@ -1,0 +1,37 @@
+Standardized column names.
+Consistency before cleaning: {'null_counts': invoice_id            0
+branch                0
+city                  0
+customer_type         0
+gender                0
+product_line          0
+unit_price            0
+quantity_sold         0
+tax_pct               0
+total                 0
+payment_method        0
+cost_of_goods_sold    0
+gross_margin_pct      0
+gross_income          0
+rating                0
+datetime              0
+dtype: int64, 'duplicate_count': np.int64(0)}
+Dropped rows with missing data or filled with 0.
+Removed duplicate records.
+Consistency after cleaning: {'null_counts': invoice_id            0
+branch                0
+city                  0
+customer_type         0
+gender                0
+product_line          0
+unit_price            0
+quantity_sold         0
+tax_pct               0
+total                 0
+payment_method        0
+cost_of_goods_sold    0
+gross_margin_pct      0
+gross_income          0
+rating                0
+datetime              0
+dtype: int64, 'duplicate_count': np.int64(0)}

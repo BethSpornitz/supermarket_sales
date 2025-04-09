@@ -2,7 +2,7 @@ import logging
 import os
 from pathlib import Path
 import pandas as pd
-from scripts.data_scrubber import DataScrubber  # Make sure your scrubber class is here
+from data_scrubber import DataScrubber  # Make sure your scrubber class is here
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
