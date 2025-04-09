@@ -1,0 +1,21 @@
+# Ignore virtual environments
+.venv/
+
+# VS Code settings
+.vscode/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Data files
+data/raw/
+data/report/
+data/prepared/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Logs and system junk
+*.log
+.DS_Store
