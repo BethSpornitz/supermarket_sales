@@ -63,7 +63,7 @@ pip install dash
 3.  Create the Notebook: Create a new file.
 4.  Add a Markdown cell at the top of your notebook with the project title, author, date, and a brief purpose.
 
-## Import Dependencies after Introduction
+### Import Dependencies after Introduction
 
 ```shell
 import pandas as pd  
@@ -74,16 +74,15 @@ from dash import dcc, html, Input, Output
 import sqlite3  
 ```
 
-## Steps for Project
-
-**Part 1 – Data Acquisition**
+### Data Acquisition**
    - Connect to SQLite database
    - Load and merge `customer`, `product`, and `sales` tables
 
-**Part 2 – Data Exploration**
+### Data Exploration**
    - Preview merged dataset
 
-**Part 3 – Visualizations**
+### Section 5.  Results and Narrative
+**Visualizations**
    - Average purchase value by gender
 ![alt text](scripts/averagepurchasebygender.png)
    - Product line preferences by gender
@@ -96,7 +95,7 @@ import sqlite3
    - Average customer rating by gender
 ![alt text](scripts/Rating.png)
 
-**Part 4 – Interactive Dashboard**
+**Interactive Dashboard**
    - Build interactive Dash app with:
      - Gender filter
      - Transaction count chart
@@ -106,18 +105,29 @@ import sqlite3
 ![alt text](<scripts/Total revenue by gender and product line.png>)
 ![alt text](scripts/SidebySide.png)
 
-### Section 5.  Results and Narrative
 **Business Insights**
-   - Analyze purchasing behavior
-   - Identify top product lines per gender
-   - Ethical Considerations
+- Average spent per transaction is higher for female customers.
+- Product preferences differ by gender:
+    - Females prefer Fashion Accessories, Food & Beverages, and Sports & Travel.
+    - Males prefer Health & Beauty, Electronic Accessories, and Food & Beverages.
+- Revenue analysis shows different product lines dominate for each gender.
+- Monthly trends show spending is more consistent for females, while males fluctuate.
+- Ratings are similar between genders, suggesting no major service perception differences.
+
 
 ### Section 6.  Suggested Business Action
-   - Targeted promotions
-   - Inventory optimization
-   - Product placement strategy
+   - Targeted promotions for specific genders.
+   - Inventory optimization based on popular categories by gender.
+   - Product placement strategy based on shopping behavioral insights.
+   - Use average spent data to offer bundles.
+   - Track seasonal patterns
 
 ### Section 7.  Challenges
+- Working with a synthetic dataset means trends are only representative and may not fully reflect real customer behavior.
+- Limited timeframe (roughly 3 months) restricts long-term forecasting.
+-Balancing interactivity (Dash app) with performance and clarity took iterative testing.
 
 ### Section 8.  Ethical Considerations
+- Gender based trends can provide direction for short term planning, however, it's critical to avoid reinforcing stereotypes or overgeneralizing behavior.  
 
+- Any genderbased personalization or marketing should be inclusive, respectful, and supported by additional long-term data.
