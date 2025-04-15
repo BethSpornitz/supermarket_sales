@@ -87,7 +87,8 @@ import sqlite3
      - Revenue by product line chart
      - Side-by-side comparison chart
 ![alt text](scripts/interactive1t.png)
-
+![alt text](<scripts/Total revenue by gender and product line.png>)
+![alt text](scripts/SidebySide.png)
 
 5. **Part 5 – Business Insights**
    - Analyze purchasing behavior
