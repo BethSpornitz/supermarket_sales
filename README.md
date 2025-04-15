@@ -86,14 +86,8 @@ import sqlite3
      - Transaction count chart
      - Revenue by product line chart
      - Side-by-side comparison chart
-<iframe
-            width="100%"
-            height="650"
-            src="http://127.0.0.1:8050/"
-            frameborder="0"
-            allowfullscreen
-            
-        ></iframe>
+![alt text](scripts/interactive1t.png)
+
 
 5. **Part 5 – Business Insights**
    - Analyze purchasing behavior
