@@ -74,26 +74,31 @@ from dash import dcc, html, Input, Output
 import sqlite3  
 ```
 
-### Data Acquisition**
+### Data Acquisition
    - Connect to SQLite database
    - Load and merge `customer`, `product`, and `sales` tables
 
-### Data Exploration**
+### Data Exploration
    - Preview merged dataset
 
 ### Section 5.  Results and Narrative
 **Visualizations**
-   - Average purchase value by gender
-![alt text](scripts/averagepurchasebygender.png)
-   - Product line preferences by gender
-![alt text](<scripts/Product line preferences by gender.png>)
-   - Total revenue by gender and product line
-![alt text](<scripts/Total revenue by gender and product line.png>)  
-   
-   - Monthly spending trends
-![alt text](scripts/MonthlySpending.png)
-   - Average customer rating by gender
-![alt text](scripts/Rating.png)
+
+- Average purchase value by gender  
+  ![Average Purchase](scripts/averagepurchasebygender.png)
+
+- Product line preferences by gender  
+  ![Product Preferences](scripts/Product%20line%20preferences%20by%20gender.png)
+
+- Total revenue by gender and product line  
+  ![Revenue](scripts/Total%20revenue%20by%20gender%20and%20product%20line.png)
+
+- Monthly spending trends  
+  ![Monthly Spending](scripts/MonthlySpending.png)
+
+- Average customer rating by gender  
+  ![Rating](scripts/Rating.png)
+
 
 **Interactive Dashboard**
    - Build interactive Dash app with:
@@ -105,7 +110,7 @@ import sqlite3
 ![alt text](<scripts/Total revenue by gender and product line.png>)
 ![alt text](scripts/SidebySide.png)
 
-**Business Insights**
+### **Business Insights**
 - Average spent per transaction is higher for female customers.
 - Product preferences differ by gender:
     - Females prefer Fashion Accessories, Food & Beverages, and Sports & Travel.
@@ -130,4 +135,4 @@ import sqlite3
 ### Section 8.  Ethical Considerations
 - Gender based trends can provide direction for short term planning, however, it's critical to avoid reinforcing stereotypes or overgeneralizing behavior.  
 
-- Any genderbased personalization or marketing should be inclusive, respectful, and supported by additional long-term data.
+- Any gender based personalization or marketing should be inclusive, respectful, and supported by additional long-term data.
