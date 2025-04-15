@@ -3,11 +3,11 @@
 ### Section 1.  The Business Goal
 Exploring Consumer Behavior and Ethical Considerations in Business Intelligence  
 
-How do product preferences and average purchase values differ by gender, and what are the ethical implications of using this data in decisionmaking?
+How do product preferences and average purchase values differ by gender, and what are the ethical implications of using this data in decision making?
 
 This project explores consumer behavior by gender in a synthetic supermarket sales dataset.  
 
-We use data analysis and interactive dashboards to investigate product preferences, purchase value differences, and ethical considerations in business intelligence decision-making.
+We use data analysis and interactive dashboards to investigate product preferences, purchase value differences, and ethical considerations in business intelligence decision making.
 
 ### Section 2.  Dataset Source
 
