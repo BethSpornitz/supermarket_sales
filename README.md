@@ -89,7 +89,8 @@ import sqlite3
    - Product line preferences by gender
 ![alt text](<scripts/Product line preferences by gender.png>)
    - Total revenue by gender and product line
-![alt text](<scripts/Total revenue by gender and product line.png>)
+![alt text](<scripts/Total revenue by gender and product line.png>)  
+   
    - Monthly spending trends
 ![alt text](scripts/MonthlySpending.png)
    - Average customer rating by gender
