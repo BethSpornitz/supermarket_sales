@@ -1,7 +1,8 @@
 # Project 7 - Gender Based Sales Trends in Supermarket Transactions
 
 ### Section 1.  The Business Goal
-Exploring Consumer Behavior and Ethical Considerations in Business Intelligence
+Exploring Consumer Behavior and Ethical Considerations in Business Intelligence  
+
 How do product preferences and average purchase values differ by gender, and what are the ethical implications of using this data in decisionmaking?
 
 This project explores consumer behavior by gender in a synthetic supermarket sales dataset.  
