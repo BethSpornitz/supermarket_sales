@@ -70,8 +70,11 @@ import sqlite3
 
 3. **Part 3 – Visualizations**
    - Average purchase value by gender
+![alt text](scripts/averagepurchasebygender.png)
    - Product line preferences by gender
+![alt text](<scripts/Product line preferences by gender.png>)
    - Total revenue by gender and product line
+
    - Monthly spending trends
    - Average customer rating by gender
 
