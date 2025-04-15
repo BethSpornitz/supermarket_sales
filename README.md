@@ -1,14 +1,29 @@
 # Project 7 - Gender Based Sales Trends in Supermarket Transactions
 
+### Section 1.  The Business Goal
 This project explores consumer behavior by gender in a synthetic supermarket sales dataset.  
 
 We use data analysis and interactive dashboards to investigate product preferences, purchase value differences, and ethical considerations in business intelligence decision-making.
 
-### Dataset Source
+### Section 2.  Dataset Source
 
-The data used in this project comes from the Supermarket Sales dataset available on Kaggle. This dataset includes 1,000 sales transactions recorded across 3 supermarket branches, including fields like customer gender, product line, quantity, total amount, payment type, and rating. It is a synthetic dataset generated to mimic real-world business scenarios and is ideal for business intelligence practice.
+The data used in this project comes from the Supermarket Sales dataset available on Kaggle. This dataset includes 1,000 sales transactions recorded across 3 supermarket branches, including fields like customer gender, product line, quantity, total amount, payment type, and rating. It is a synthetic dataset generated to mimic real-world business 
+scenarios and is ideal for business intelligence practice.
 
-## How to install and run the project
+### Section 3.  Tools Used
+- Python
+
+- SQLite (Data Warehouse)
+
+- JupyterLab in VS Code
+
+- pandas, matplotlib, plotly.express
+
+- Dash (for the interactive dashboard)
+
+- Git & GitHub for version control
+
+### Section 4.  Workflow and Logic
 
 ### Create and Activate Project Virtual Environment
 
@@ -61,14 +76,14 @@ import sqlite3
 
 ## Steps for Project
 
-1. **Part 1 – Data Acquisition**
+**Part 1 – Data Acquisition**
    - Connect to SQLite database
    - Load and merge `customer`, `product`, and `sales` tables
 
-2. **Part 2 – Data Exploration**
+**Part 2 – Data Exploration**
    - Preview merged dataset
 
-3. **Part 3 – Visualizations**
+**Part 3 – Visualizations**
    - Average purchase value by gender
 ![alt text](scripts/averagepurchasebygender.png)
    - Product line preferences by gender
@@ -80,7 +95,7 @@ import sqlite3
    - Average customer rating by gender
 ![alt text](scripts/Rating.png)
 
-4. **Part 4 – Interactive Dashboard**
+**Part 4 – Interactive Dashboard**
    - Build interactive Dash app with:
      - Gender filter
      - Transaction count chart
@@ -90,17 +105,18 @@ import sqlite3
 ![alt text](<scripts/Total revenue by gender and product line.png>)
 ![alt text](scripts/SidebySide.png)
 
-5. **Part 5 – Business Insights**
+### Section 5.  Results and Narrative
+**Business Insights**
    - Analyze purchasing behavior
    - Identify top product lines per gender
    - Ethical Considerations
 
-6. **Part 7 – Business Recommendations**
+### Section 6.  Suggested Business Action
    - Targeted promotions
    - Inventory optimization
    - Product placement strategy
 
-## Summary
+### Section 7.  Challenges
 
-This project demonstrates how gender based trends in sales data can be used to generate business insights and inform decision making. 
+### Section 8.  Ethical Considerations
 
